@@ -1,0 +1,91 @@
+
+html{scroll-behavior: smooth;}
+/* the fonts */
+@font-face{
+    font-family: "yellowRabbit";
+    src: url("../fonts/Yellowrabbit.otf");
+    font-weight: auto;
+}
+h1{
+    font-family: "yellowRabbit", "Poetsen One", sans-serif;
+}
+h2,h3,h4,h5,h6{
+    font-family: "Poetsen One", sans-serif;
+}
+p,li,a{
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    font-size: 1.2em; /* 20px */
+}
+/* masthead */
+.masthead{
+    height: 20vh;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.masthead h1{
+    font-size: 7em;
+    color: #f9a825;
+    text-shadow: 4px 3px 4px rgba(0,0,0,.8);
+    letter-spacing: 1.75px;
+}
+.video{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9a825;
+}
+/*main content */
+.lyrics{
+    height: 1000px;
+    background-image: url("../img/fireflies.jpg");
+    background-size: cover;
+}
+.lyrics div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    background-color: rgba(255, 255, 255,.7);
+    color: #000000;
+}
+.lyrics div h2{
+    font-size: 3em;
+    font-weight: bold;
+    color: #f9a825;
+    text-shadow: 4px 3px 4px rgba(0,0,0,.8);
+    letter-spacing: 1.75px;
+}
+.lyrics p{
+    font-weight: 900;
+    font-size: 1.5em;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+}
+.lyrics p mark{
+    background-color: rgba(0,0,0,0);
+    color: #00008b;
+    font-weight: 900;
+    font-size: 1.25em;
+}
+/* footer */
+footer{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9a825;
+}
+
+
+
+
+
+
+
