@@ -1624,6 +1624,11 @@ footer{
     .lesson-masthead input[type="submit"] {
         width: 80%;
     }
+    .lesson-masthead1{
+        background-image: url("../img/lesson-masthead2.jpg");
+        object-fit: cover;
+        background-position: center;
+    }
     .cta-row {
         grid-template-columns: 1fr 1fr 1fr;
     }
